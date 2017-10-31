@@ -1,0 +1,29 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "description": "The second question of Bravi's test for Full Stack Developer",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node loader.js"
+  },
+  "author": "Nazareno Costa",
+  "license": "MIT",
+  "dependencies": {    
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-query-int": "^1.0.1",
+    "install": "^0.8.7",    
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.6",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "*",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.4.2"    
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
